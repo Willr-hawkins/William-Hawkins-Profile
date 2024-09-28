@@ -42,9 +42,28 @@ header {
 /* Navbar links */
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 25px;
     padding: 8px 12px;
+}
+
+/* Horizontal line styling */
+hr {
+    background-color: whitesmoke;
+}
+
+/* About section */
+#about {
+    margin-top: 150px;
+}
+
+/* Profile image */
+#profile-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 25px;
 }
 
