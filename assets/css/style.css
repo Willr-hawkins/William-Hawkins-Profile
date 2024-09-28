@@ -1,6 +1,6 @@
 body {
     background-color: #6C809A !important;
-    color: #272727;
+    color: #f5f5f5 !important;
     height: 100%;
     font-family: 'Edu SA Beginner', sans-serif !important;
 }
@@ -36,13 +36,13 @@ header {
 .navbar {
     display: flex;
     gap: 40px;
-    right: 35%;
+    right: 30%;
 }
 
 /* Navbar links */
 .navbar a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #f5f5f5;
     font-weight: bold;
     font-size: 25px;
     padding: 8px 12px;
@@ -50,12 +50,15 @@ header {
 
 /* Horizontal line styling */
 hr {
-    background-color: whitesmoke;
+    border: none;
+    border-top: 3px dashed #f5f5f5;
+    width: 80%;
+    margin: 20px auto;
 }
 
 /* About section */
 #about {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 /* Profile image */
@@ -65,5 +68,11 @@ hr {
     border-radius: 50%;
     object-fit: cover;
     margin-left: 25px;
+}
+
+/* Introduction text*/
+#introduction {
+    align-items: center;
+    margin-left: 500px;
 }
 
