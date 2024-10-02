@@ -6,6 +6,8 @@
     <title>William Robert Hawkins</title>
     <!-- CSS file Link -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/7c1ff51b02.js" crossorigin="anonymous"></script>
     <!-- Google Fonts Link | Edu SA Beginner -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,41 @@
 </head>
 <body>
     <header>
-        <h1>Coiling Clay</h1>
+        <a class="home-return ms-2 mt-2" href="index.html"><i class="fa-solid fa-arrow-left"></i>Back to projects</a>
+        <h1 class="my-3 text-center fw-bolder">Coiling Clay</h1>
     </header>
+    <hr>
+    <div class="col-12 project-description">
+        <p class="fs-5 text-center mt-3">Coiling Clay was my 5th and final project for my Diploma in Full Stack Software Development with Code Institute.
+        The project is a Django based project for a made up Ceramics online store. The technologies used to develop this application were HTML, CSS, JavaScript, 
+        Python, Boostrap CSS Framework, and Django Framework. The key funcitonality of the application are the following:</p>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <ul class="list-group list-group-flush rounded-2">
+                <li class="list-group-item">Adding products to cart and editing cart contents.</li>
+                <li class="list-group-item">ability to checkout and easily make a payment.</li>
+                <li class="list-group-item">Create a user account.</li>
+                <li class="list-group-item">Save personal details within the account section, along with viewing purchase history.</li>
+                <li class="list-group-item">Leave review on products.</li>
+                <li class="list-group-item">Commenting on other user's reviews.</li>
+                <li class="list-group-item">Edit and delete reviews and comments if the user is the owner.</li>
+                <li class="list-group-item">Create wishlists and add products to wishlist's.</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img class="product-image" src="assets/images/coiling-clay-product-image.jpg" alt="Image of one of the products off coiling clay.">
+        </div>
+    </div>
+    <div>
+        <p class="fs-5 mt-5 ms-3">A multitude of tools were used to help develop this application, the main tools used where GitHub for the app repository, GitPod a cloud based development
+        enviroment, and ElephantSQL a potgres database.</p>
+        <p class="fs-5 mt-3 ms-3">Along side these tools, Stripe was also used. Stripe is a service that allows compaines to accept payments from clients/cusomters. For this project only the test mode
+        was used, which enables the ability to test that payments are working before going live to real customers.</p>
+        <a class="stripe-link" href="https://www.stripe.com" target="_blank">Visit the Stripe website!</a>
+        <p class="fs-5 mt-3 ms-3">AWS (Amazon Web Services) was used during the deployment of this application. Two services were used the first being Amazon S3, this service allows the developer to 
+        create a bucket to hold all static and media files for the website. The second service used is IAM (Identity and Managment) this allows the developer to manage the workload and workforce of the application.</p>
+        <a class="aws-link" href="http://aws.amazon.com" target="_blank">Visit the AWS website!</a>
+    </div>
 </body>
 </html>
