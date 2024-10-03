@@ -121,7 +121,7 @@ body hr {
     color: #f5f5f5 !important;
 }
 
-.product-image {
+.project-image {
     height: 350px;
     width: 350px;
     object-fit: cover;
@@ -129,7 +129,9 @@ body hr {
 }
 
 .stripe-link,
-.aws-link {
+.aws-link,
+.repository-link,
+.live-site-link {
     color: #E8C458;
     font-weight: 400;
     font-size: larger;

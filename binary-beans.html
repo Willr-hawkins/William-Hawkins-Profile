@@ -6,6 +6,8 @@
     <title>William Robert Hawkins</title>
     <!-- CSS file Link -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/7c1ff51b02.js" crossorigin="anonymous"></script>
     <!-- Google Fonts Link | Edu SA Beginner -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,42 @@
 </head>
 <body>
     <header>
-        <h1>Binary Beans</h1>
+        <a class="home-return ms-2 mt-2" href="index.html"><i class="fa-solid fa-arrow-left"></i>Back to projects</a>
+        <h1 class="my-3 text-center fw-bolder">Binary Beans</h1>
     </header>
+    <hr>
+    <div class="col-12 project-description">
+        <p class="fs-5 text-center mt-3 mx-3">Binary Beans is the 4th project I made for my course with Code Institute. The wesbite is
+            for a made up coffee shop, where the users can learn more about the coffee shop, find out about up and coming events,
+            and see what is on the coffee shops menu. The technologies used in this project were HTML, CSS, Bootstrap CSS Framework, and
+            Django Framework. The key funcitonalities of this application are the following:
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <ul class="list-group list-group-flush rounded-2">
+                <li class="list-group-item">Sign up for an account, aswell as log in and sign out.</li>
+                <li class="list-group-item">Request a private event at the shop.</li>
+                <li class="list-group-item">Edit and delete private event requests.</li>
+                <li class="list-group-item">Leave a review on the website.</li>
+                <li class="list-group-item">Leave review on products.</li>
+                <li class="list-group-item">Edit and delete reviews.</li>
+                <li class="list-group-item">Leave a like on other users reviews.</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img class="project-image" src="assets/images/binary-beans-image.jpg" alt="Image of one of the products off coiling clay.">
+        </div>
+    </div>
+    <div>
+        <p class="fs-5 mt-5 ms-4">A multitude of tools were used to help develop this application, the main tools used where GitHub for the app repository, 
+        GitPod a cloud based development
+        enviroment, and ElephantSQL a potgres database.</p>
+    </div>
+    <div class="important-links mb-5 text-center">
+        <h3 class="ms-3 mt-3">The following links will take you to the project repository and the live site.</h3>
+        <a class="repository-link" href="https://github.com/Willr-hawkins/binary-beans?tab=readme-ov-file" target="_blank"><i class="fa-brands fa-github" style="color: #E8C458;"></i> Binary Beans repository</a>
+        <a class="live-site-link" href="https://binary-beans-23fbf9ec9fe1.herokuapp.com/reviews/" target="_blank"><i class="fa-solid fa-paperclip" style="color: #E8C458;"></i> Binary Beans live site</a>
+    </div>
 </body>
 </html>
