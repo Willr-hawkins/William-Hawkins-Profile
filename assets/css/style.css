@@ -128,6 +128,11 @@ body hr {
     border-radius: 50%;
 }
 
+.project-image-ttt {
+    height: 350px;
+    width: auto;
+}
+
 .stripe-link,
 .aws-link,
 .repository-link,
